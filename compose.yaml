@@ -1,13 +1,8 @@
-version: '3'
-
 services:
-  react-app: # FIXME
+  rust_tutorial_app:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: react-img-prod:latest # FIXME
-    container_name: react-container-prod # FIXME
-    # ports:
-    #   - 80:8080 # localport:dockerport
-    # volumes:
-    #   - ./:/app
+    image: rust_tutorial:latest
+    container_name: rust_tutorial_container
+

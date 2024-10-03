@@ -1,0 +1,6 @@
+[package]
+name = "chapter1"
+version = "0.1.0"
+authors = ["RyosukeDTomita <d310151c2@gmail.com>"]
+
+[dependencies]
