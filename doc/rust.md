@@ -22,6 +22,7 @@ rustのコンパイラ
 
 ```shell
 cargo new プロジェクト名
+cargo clean
 cargo check # コンパイルできるかチェックする
 cargo build
 cargo run
